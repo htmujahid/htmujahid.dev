@@ -1,6 +1,6 @@
 "use client";
 
-import { ToggleMode } from "@/components/Buttons";
+import ToggleMode from "@/components/ToggleMode";
 import useClickOutside from "@/hooks/useOutsideClick";
 import Link from "next/link";
 import { useRouter } from "next/navigation";

@@ -5,7 +5,7 @@ export default function ContactBanner() {
                 <section className="mx-auto w-full max-w-4xl rounded-2xl border rounded-lg p-4 bg-zinc-300 dark:bg-zinc-700 px-6 md:px-12 py-4 md:py-10 text-center text-zinc-800 border-zinc-300 dark:border-zinc-700 dark:text-zinc-200 md:text-left">
                     <h2 className="text-3xl/[150%] font-bold text-center">Contact me</h2>
                     <p className="my-2 text-center">
-                        I'm always open to new opportunities and collaborations.
+                        I &apos; m always open to new opportunities and collaborations.
                         Feel free to reach out to me.
                     </p>
                     <div className="mt-6 space-y-4 md:space-y-0 md:space-x-4 flex flex-col md:flex-row justify-center">
