@@ -61,7 +61,7 @@ export default function Timeline({ limit }: { limit?: number }) {
         <div className="flex flex-col">
             <div className="flex justify-between items-center">
                 <h1 className="font-bold text-3xl">Timeline</h1>
-               {limit && <Link href="/projects">
+               {limit && <Link href="/timeline">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
