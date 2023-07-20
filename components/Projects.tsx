@@ -65,7 +65,7 @@ const projectsList = [
         name: "Cholab",
         description:
             "A website and desktop application for providing the accurate physical and chemical properties of chemistry elements.",
-        url: "https://github.com/cholab/Cholab",
+        url: "https://github.com/htmujahid/cholab-desktop",
         technologies: ["Python", "Tkinter", "Flask", "HTML", "CSS"],
     },
 ];
