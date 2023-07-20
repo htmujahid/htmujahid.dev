@@ -18,7 +18,7 @@ const timelineList = [
         icon: <WorkIcon />,
     },
     {
-        title: "Front End Developer at Civica (Internee)",
+        title: "Front End Developer at Civica (Intern)",
         description: [
             "Implemented frontend of enterprise level ecommerce plus real estate application from scratch",
             "Used redux js for app wide state management",
