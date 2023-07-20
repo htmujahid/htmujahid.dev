@@ -14,8 +14,8 @@ const NAV_ITEMS = [
         label: "Blogs",
     },
     {
-        href: "/contact",
-        label: "Contact",
+        href: "/timeline",
+        label: "Timeline",
     },
     {
         href: "/socials",
