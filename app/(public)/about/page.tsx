@@ -3,7 +3,7 @@ export default function page() {
         <div>
             <div className="pt-20">
                 <div className="max-w-xl text-base text-zinc-700 dark:text-zinc-300">
-                    I &apos; m a passionate MERN stack developer with experience on
+                    I&apos; m a passionate MERN stack developer with experience on
                     multiple platforms. I am a strong advocate for clean and
                     efficient code that is maintainable, scalable, and easy to
                     understand. As a tech blogger, I aim to create engaging and
