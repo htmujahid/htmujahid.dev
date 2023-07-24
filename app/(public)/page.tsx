@@ -17,7 +17,7 @@ export default function page() {
                         texts={[
                             "Software Engineer",
                             "Full Stack Developer",
-                            "Student",
+                            "Tech Blogger",
                         ]}
                         speed={100}
                     />
