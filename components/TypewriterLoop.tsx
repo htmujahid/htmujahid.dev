@@ -27,12 +27,6 @@ export default function TypewriterLoop({ texts, speed }: {
                     setTimeout(() => {
                         typeText(text, index, charIndex - 1);
                     }, speed / 2);
-                    // setTimeout(() => {
-                    //     const nextIndex = (index + 1) % texts.length;
-                    //     setCurrentTextIndex(nextIndex);
-                    //     setDisplayedText("");
-                    //     typeText(texts[nextIndex], nextIndex, 0);
-                    // }, speed * 2);
                     if (charIndex === 0){ 
                         mode = "forward";
                         const nextIndex = (index + 1) % texts.length;
