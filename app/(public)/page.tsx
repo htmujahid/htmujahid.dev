@@ -10,7 +10,7 @@ export default function page() {
     return (
         <div className="">
             <div className="pt-20 track">
-                <span className="">I &apos; m the</span>
+                <span className="">I&apos;m the</span>
                 <br />
                 <span className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-teal-500 dark:text-teal-600">
                     <TypewriterLoop
