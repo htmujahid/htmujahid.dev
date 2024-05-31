@@ -1,22 +1,33 @@
-import './globals.css'
+import './globals.css';
+import { Inter as FontSans } from 'next/font/google';
+
+import { cn } from "@/lib/utils"
+
+const fontSans = FontSans({
+  subsets: ['latin'],
+  variable: '--font-sans',
+});
 
 export const metadata = {
   title: 'HTMujahid',
   description: 'Portfolio of HTMujahid',
-}
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className='dark'>
-      <body className='bg-white text-black dark:bg-black text-white'>
-        <main>
-          {children}
-        </main>
+    <html lang="en" className="dark">
+      <body
+        className={cn(
+          'min-h-screen bg-background font-sans antialiased',
+          fontSans.variable,
+        )}
+      >
+        <main>{children}</main>
       </body>
     </html>
-  )
+  );
 }
