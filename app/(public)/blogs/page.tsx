@@ -1,9 +1,9 @@
-import Blogs from "@/components/Blogs";
+import Blogs from '@/components/blogs';
 
 export default function page() {
-    return (
-        <div className="pt-20">
-            <Blogs />
-        </div>
-    );
+  return (
+    <div className="pt-20">
+      <Blogs />
+    </div>
+  );
 }

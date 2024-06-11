@@ -1,2 +1,2 @@
-export { default as PublicHeader } from './Header'
-export { default as PublicFooter } from './Footer'
+export { default as PublicHeader } from './header'
+export { default as PublicFooter } from './footer'

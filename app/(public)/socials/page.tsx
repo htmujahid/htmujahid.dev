@@ -1,9 +1,9 @@
-import Socials from "@/components/Socials";
+import Socials from '@/components/socials';
 
 export default function page() {
-    return (
-        <div className="pt-20">
-            <Socials />
-        </div>
-    );
+  return (
+    <div className="pt-20">
+      <Socials />
+    </div>
+  );
 }

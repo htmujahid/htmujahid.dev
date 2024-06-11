@@ -1,9 +1,9 @@
-import Timeline from "@/components/Timeline";
+import Timeline from '@/components/timeline';
 
 export default function page() {
-    return (
-        <div className="pt-20">
-            <Timeline />
-        </div>
-    );
+  return (
+    <div className="pt-20">
+      <Timeline />
+    </div>
+  );
 }
