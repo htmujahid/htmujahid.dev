@@ -1,8 +1,28 @@
 import Link from 'next/link';
 import { Badge } from './ui/badge';
-import { ArrowRight, BriefcaseBusiness, Cake, GraduationCap } from 'lucide-react';
+import {
+  ArrowRight,
+  BriefcaseBusiness,
+  Cake,
+  GraduationCap,
+} from 'lucide-react';
 
 const timelineList = [
+  {
+    title: 'React Engineer at Supabase',
+    description: [
+      'Developed AI based autobiography writer',
+      'Modularized code by introducing monorepo',
+      'Used supabase for auth, db, and realtime notifications',
+      'Open AI integration for ai response'
+    ],
+    duration: {
+      start: 'September 2023',
+      end: 'Present',
+    },
+    tags: ['React JS', 'Next JS', 'Supabase', 'Postgres'],
+    icon: <BriefcaseBusiness className="w-4 h-4" />,
+  },
   {
     title: 'Full Stack Developer at Invogue Solutions',
     description: [
@@ -13,7 +33,7 @@ const timelineList = [
     ],
     duration: {
       start: 'March 2022',
-      end: 'Present',
+      end: 'August 2023',
     },
     tags: ['Laravel', 'Vue JS', 'Inertia JS', 'MySQL'],
     icon: <BriefcaseBusiness className="w-4 h-4" />,
@@ -23,7 +43,7 @@ const timelineList = [
     description: [
       'Implemented frontend of enterprise level ecommerce plus real estate application from scratch',
       'Used redux js for app wide state management',
-      'Developed using Tailwind CSS as css framework',
+      'Developed using TailwindCSS as css framework',
     ],
     duration: {
       start: 'September 2022',
@@ -84,7 +104,7 @@ function TimelineItem({ item, ...props }: { item: any }) {
       {...props}
     >
       <div className="relative">
-        <div className='p-2 rounded-full bg-background'>{item.icon}</div>
+        <div className="p-2 rounded-full bg-background">{item.icon}</div>
       </div>
       <div className="w-full py-1.5 text-sm ">
         <div className="flex flex-col md:flex-row">

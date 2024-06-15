@@ -11,11 +11,25 @@ import { Badge } from './ui/badge';
 
 const projectsList = [
   {
+    name: 'SonnetJS',
+    description:
+      'An opinionated framework for writing clean and organized JavaScript code.',
+    url: 'https://sonnet.js.org/',
+    technologies: ['Vanilla', 'JS', 'Frontend', 'Framework'],
+  },
+  {
     name: 'KHALQ Foundation Pakistan',
     description:
       'A non profit charity organization website, and an admin panel to manage the records of the organization.',
     url: 'https://khalqfoundation.org/',
     technologies: ['PHP', 'Blade', 'Laravel PHP', 'MySQL'],
+  },
+  {
+    name: 'Cleanough',
+    description:
+      'A code-sharing social app where developers collaborate, receive feedback, and improve their code together.',
+    url: 'https://github.com/cleanough/cleanough',
+    technologies: ['TypeScript', 'Next JS', 'Node JS', 'Mongo DB', 'Vercel'],
   },
   {
     name: 'DealShare',
@@ -45,13 +59,6 @@ const projectsList = [
       'An ad Agency website which allow clients to submit their ads for displaying them at different websites.',
     url: 'https://github.com/altafahmad1/AdHeap',
     technologies: ['JavaScript', 'React JS', 'Node JS', 'Express JS', 'MySQL'],
-  },
-  {
-    name: 'Cleanough',
-    description:
-      'A code-sharing social app where developers collaborate, receive feedback, and improve their code together.',
-    url: 'https://cleanough.com/',
-    technologies: ['TypeScript', 'Next JS', 'Node JS', 'Mongo DB', 'Vercel'],
   },
   {
     name: 'Akaunting | Investor',
