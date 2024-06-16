@@ -4,7 +4,7 @@ import ToggleMode from '@/components/toggle-mode';
 import useClickOutside from '@/hooks/use-outside-click';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { useRef, useState, useEffect } from 'react';
+import { useRef, useState } from 'react';
 
 const NAV_ITEMS = [
   {
