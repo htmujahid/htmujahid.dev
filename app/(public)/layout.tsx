@@ -1,5 +1,6 @@
 import ContactBanner from '@/components/contact';
-import { PublicFooter, PublicHeader } from '@/components/layouts';
+import PublicHeader from '@/components/layouts/header';
+import PublicFooter from '@/components/layouts/footer';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import Link from 'next/link';
 
