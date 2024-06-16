@@ -9,7 +9,7 @@ import {
 
 const timelineList = [
   {
-    title: 'React Engineer at Supabase',
+    title: 'React Engineer at MyAutoBio',
     description: [
       'Developed AI based autobiography writer',
       'Modularized code by introducing monorepo',
